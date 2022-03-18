@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo List</title>
+</head class="backgroundColor">
+<body class = "backgroundColor">
+  <header class="header">
+    <h1>Minha Lista de Tarefas</h1>
+  </header>
+  <main class="main-content">
+    <div class="first-div">
+      <p class="colorTextPurpple" id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+      <p class="colorTextPurpple">Clique fora da lista para remover o item selecionado</p>      
+      <div class="buttons">
+        <input class="input" type="text" id="texto-tarefa" placeholder="Digite uma tarefa">
+        <button class="button button-add" id="criar-tarefa">+</button>
+      </div>
+    </div>
+    <div class="list-container">
+      <ol class="list" id="lista-tarefas"></ol>
+    </div>
+    <div class="buttons buttons-dim">
+      <button class="button button-move" id="mover-cima"><img class="btn-img" src="https://image.flaticon.com/icons/png/512/130/130864.png" alt="up"></button>
+      <button class="button button-move" id="mover-baixo"><img class="btn-img" src="https://e7.pngegg.com/pngimages/381/145/png-clipart-arrow-computer-icons-down-arrow-angle-internet.png" alt="down"></button>
+      <button class="button button-text button-save" id="salvar-tarefas">Salvar Tarefas</button>
+      <button class="button button-remove btn-rmv-selected" id="remover-selecionado">-</button>
+      <button class="button button-text button-remove" id="apaga-tudo">Remover Tudo</button>
+      <button class="button button-text button-remove" id="remover-finalizados">Remover Finalizados</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 

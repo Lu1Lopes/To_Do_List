@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .selected {
+    background-color: rgba(255, 37, 255);
+    border-radius: 15px;
+  }
+  
+  .selected:hover {
+    background-color: rgb(163, 0, 141) ! important;
+  }
+  
+  .completed {
+    text-decoration: line-through solid rgb(214, 23, 23);
+  }
+  
+  .header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    background-color: rgb(255, 242, 57);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-content {
+    top: 100px;
+    position: relative;
+    left: 10%;
+    width: 76%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid rgb(255, 233, 31);
+  }
+  
+  .first-div {
+    text-align: center;
+  }
+  
+  .first-div p {
+    padding-bottom: 10px;
+  }
+  
+  .list-container {
+    margin: 35px 0;
+    min-height: 40px;
+    padding: 20px;
+    width: 60%;
+    background-color: rgb(240, 255, 27);
+    border-radius: 20px;
+    border: 5px solid rgb(192, 33, 255);
+  }
+  
+  .list {
+    background-color: rgb(255, 234, 43);
+    border-radius: 15px;
+  }
+  
+  .list li {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-left: 0;
+  }
+  
+  .list li:hover {
+    border-radius: 20px;
+    background-color: rgb(75, 17, 67);
+  }
+  
+  .input {
+    height: 33px;
+    bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .buttons-dim {
+    width: 70%;
+    height: 50px;
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 910;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .button:hover {
+    border: 4px solid rgb(0, 0, 0);
+  }
+  
+  .btn-rmv-selected {
+    justify-content: flex-end;
+    font-size: 35px;
+  }
+  
+  .button-add {
+    justify-content: space-around;
+    font-size: 35px;
+    background-color: rgb(255, 37, 255);
+  }
+  
+  .button-remove {
+    background-color: rgb(241, 255, 42);
+  }
+  
+  .button-move {
+    background-color: rgb(255, 37, 255);
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .btn-img {
+    width: 30px;
+  }
+  
+  .button-save {
+    background-color: rgb(255, 37, 255);
+  }
+  
+  .button-text {
+    justify-content: center;
+  }
+
+  .colorTextPurpple{
+     color: rgb(255, 37, 255);
+  }
+  .backgroundColor{
+      background-color: rgb(74, 33, 90);
+  }
